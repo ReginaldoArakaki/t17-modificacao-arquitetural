@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>T17 · Modificação arquitetural</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=IBM+Plex+Sans+Condensed:wght@700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light dark;--bg:light-dark(#f3f5fa,#0d1220);--ink:light-dark(#141b2d,#e6e9f2);--soft:light-dark(#566079,#a3acc3)}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,sans-serif}
+header{padding:clamp(28px,5vw,64px) max(5vw,16px) 24px;max-width:1100px;margin:0 auto}
+h1{font:700 clamp(32px,5vw,48px)/1.05 "IBM Plex Sans Condensed",sans-serif;margin:0;text-wrap:balance}
+header p{color:var(--soft);max-width:62ch;margin:10px 0 0}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;max-width:1100px;margin:0 auto;padding:0 max(5vw,16px) 40px}
+a.card{display:block;text-decoration:none;border-radius:6px;padding:28px 26px;min-height:220px;position:relative}
+a.card h2{margin:0 0 8px;font-size:30px;line-height:1.05}
+a.card p{margin:0;font-size:16px}
+a.card span{position:absolute;bottom:20px;left:26px;font-weight:600}
+a.card:focus-visible{outline:3px solid #e8601c;outline-offset:3px}
+.d1{background:#ffe14d;color:#1d1a00;background-image:repeating-linear-gradient(transparent 0 31px,rgba(30,60,120,.12) 31px 32px)}
+.d1 h2{font-family:Kalam,cursive}
+.d2{background:#123a9c;color:#fff;background-image:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px);background-size:28px 28px}
+.d2 h2{font-family:"IBM Plex Sans Condensed",sans-serif}
+.note{max-width:1100px;margin:0 auto;padding:0 max(5vw,16px) 48px;color:var(--soft);font-size:15px}
+@media(max-width:640px){.two{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<header>
+ <h1>T17 · Modificação arquitetural: do método ad hoc ao ATAM/SEI</h1>
+ <p>Mesmo caso, duas rodadas: primeiro pela experiência e pela pressa, depois pelo método. Prof. Reginaldo Arakaki · Escola Politécnica da USP · 2026.2B</p>
+</header>
+<main class="two">
+ <a class="card d1" href="d1-metodo-ad-hoc/"><h2>Dinâmica 1 · Método ad hoc</h2><p>Define as ADRs → Implementa → Testa → Entrega. 30 minutos.</p><span>Abrir a Dinâmica 1 →</span></a>
+ <a class="card d2" href="d2-metodo-atam-sei/"><h2>Dinâmica 2 · ATAM/SEI, E1 e E2</h2><p>Business drivers, fluxos críticos e ações com método. 30 minutos.</p><span>Abrir a Dinâmica 2 →</span></a>
+</main>
+<p class="note">Usem um único navegador por grupo. Ao fim da D1, copiem o código para a D2. Ao terminar cada bloco, levem o resultado para o quadro do grupo no Miro (Copiar texto ou print).</p>
+</body>
+</html>
